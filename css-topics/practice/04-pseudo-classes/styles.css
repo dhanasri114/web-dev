@@ -1,0 +1,31 @@
+
+
+a{
+    text-decoration: none;
+    padding-left: 20px;
+}
+button:hover{
+    font-weight: 700;
+    font-size: larger;
+    color: sandybrown;
+    text-decoration: underline;
+}
+
+
+a:focus{
+    outline:3px solid rgb(64, 225, 225);
+}
+
+a:active
+{
+    transform: translateY(1px);
+    background-color: aqua;
+    color: blue;
+}
+a:visited
+{
+    color: rgb(160, 10, 198);
+}
+
+
+

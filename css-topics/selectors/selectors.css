@@ -1,0 +1,28 @@
+h1{
+    padding: 20px;
+    margin-right: 120px;
+    margin-left: 120px;
+    border: 5px double rgb(204, 9, 9);
+    text-align: center;
+}
+h3{
+    text-align: center;
+    background-color:slateblue;
+    border-style: solid;
+    padding: 10px;
+}
+#change-color{
+    background-color:rgb(139, 18, 113);
+    color: rgb(225,225,225);
+    
+    padding: 20px;
+}
+
+.change-border{
+    border: 5px dotted #700770;
+    padding: 30px;
+    background-color: skyblue;
+}
+li span{
+    background-color: yellow;
+}

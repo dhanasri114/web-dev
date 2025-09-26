@@ -1,0 +1,40 @@
+
+/* a{
+    color: blue;
+    font-size: 50px;
+} */
+
+/* button{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+input:hover{
+    background-color: rgb(244, 32, 9);
+    color: aliceblue;
+} */
+
+/* button:focus
+{
+    background-color: turquoise;
+} */
+
+/* h1:active
+{
+    background-color: slateblue;
+} */
+a:visited{
+    color: rgb(222, 34, 62);
+    background-color: bisque;
+}
+
+
+
+
+
+
+
+
+

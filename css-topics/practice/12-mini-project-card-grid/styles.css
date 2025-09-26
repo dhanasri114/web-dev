@@ -1,0 +1,59 @@
+
+
+body{
+    text-align: center;
+}
+
+button::after
+{
+    content: "⏩"; 
+    padding-left: 5px;
+}
+button{
+    padding: 7px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button:hover{
+background-color: tan;
+color: aliceblue;
+font-weight: bold;
+}
+
+
+article
+{
+    text-align: center;
+    display: inline-block;
+    border: 1px solid;
+   margin: 35px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   padding-top: 50px;
+   border-radius: 10px;
+ 
+}
+
+.card>p
+{
+    color: black;
+}
+.card h1{
+    color: black;
+}
+
+article:hover
+{
+    background-color: rgb(93, 203, 240);
+    color: aliceblue;
+}
+
+
+h1{
+    color: hsl(210, 50%, 50%);
+}
+
+
+

@@ -1,0 +1,12 @@
+
+.toolbar button:not(.delete)
+{
+background-color: palevioletred;
+padding: 10px;
+margin: 10px;
+}
+
+:is(h1,h2,h3)
+{
+    border: 2px double ;
+}

@@ -1,0 +1,33 @@
+
+body{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.color{
+
+    border: 2px solid;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    margin-left: 35%;
+    margin-right: 30%;
+background-color: aqua;
+}
+
+#colors{
+    
+    border: 2px dotted;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    margin-left: 35%;
+    margin-right: 30%;
+    background-color: tomato;
+    
+}
+
+ol{
+    background-color: aquamarine;
+}
+

@@ -1,0 +1,7 @@
+#letter::first-letter
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(19, 141, 207);
+    font-style: oblique;
+}

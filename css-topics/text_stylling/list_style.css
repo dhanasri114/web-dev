@@ -1,0 +1,22 @@
+ol{
+    list-style:lower-roman;
+    background-color: rosybrown;
+}
+ul{
+    list-style:lower-alpha;
+}
+li{
+    background-color: skyblue;
+}
+
+/* ol li{
+    list-style: circle;
+    background-color: orchid;
+    color:navy;
+     
+} */
+
+/* ul li{
+    list-style: square;
+    background-color: sandybrown;
+} */

@@ -1,0 +1,23 @@
+ol li:last-child
+{
+    background-color: blanchedalmond;
+}
+
+h1:last-child
+{
+    border: 3px dotted;
+}
+
+.last p:last-child
+{
+    background-color:peru;
+    text-align: justify;
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+div p:last-child
+{
+    font-weight: bold;
+}

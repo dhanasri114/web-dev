@@ -1,0 +1,13 @@
+
+section{
+    width: 300px;
+    padding: 20px;
+    border: 10px solid;
+    box-sizing: content-box;
+}
+aside{
+    width: 300px;
+    padding: 20px;
+    border: 10px solid;
+    box-sizing:border-box;
+}

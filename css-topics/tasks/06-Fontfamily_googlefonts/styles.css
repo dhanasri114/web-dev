@@ -1,0 +1,15 @@
+body{
+    font-family: "Inter",system-ui,sans-serif;
+}
+h1,h2{
+    font-family: "Playfair Display", serif;
+}
+p{
+    font-weight: 400px;
+}
+p strong{
+    font-weight: 700px;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}

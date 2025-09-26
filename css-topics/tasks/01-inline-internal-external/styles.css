@@ -1,0 +1,12 @@
+
+/* apply color in h1 tag at  external css */
+h1{
+    color: royalblue;
+}
+
+footer{
+    background-color: palevioletred;
+    padding: 50px;
+    text-align: center;
+}
+

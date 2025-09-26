@@ -1,0 +1,24 @@
+
+nav ul{
+    padding-top: 20px;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav > ul >li{
+    display: inline;
+    margin-left: 10px;
+    background-color: burlywood;
+    padding: 10px;
+}
+ul + p{
+    background-color: steelblue;
+    padding: 10px;
+}
+ul ~ p{
+    background-color: sandybrown;
+}

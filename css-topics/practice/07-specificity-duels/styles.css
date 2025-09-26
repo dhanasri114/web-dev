@@ -1,0 +1,24 @@
+p{
+    color: rebeccapurple;
+}
+
+.note{
+    color: turquoise;
+}
+
+#main{
+    color: rgb(30, 118, 212);
+}
+
+/* dupication one different colors */
+p{
+    color: rgb(209, 196, 14);
+}
+
+.note{
+    color: rgb(17, 214, 24);
+}
+
+#main{
+    color: rgb(184, 22, 27);
+}

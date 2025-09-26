@@ -1,0 +1,21 @@
+h1,h2,h3,h4,h5,h6{
+    /* display: inline-block; */
+    padding-left: 20px;
+    text-align: center;
+    color: tomato;
+    
+}
+P{
+    font-size: larger;
+    text-align: center;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+footer{
+    background-color:plum;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}

@@ -1,0 +1,41 @@
+
+/*  with in :not( write tag_names,class_name, id name)
+we apply inside body tag change color or anything  use this one,  body and :not we can provide some space
+it will be work
+*/
+
+body :not(h2)
+{
+    background-color: aquamarine;
+}
+
+/* this will be effect present h1 tag inside body */
+body :not(h1,ol,li)
+{
+    color: rgb(145, 97, 36);
+}
+
+div :not(h4,h3)
+{
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+}
+/* use list tag  , no space provide between li and :not*/
+
+li:not(#no)
+{
+    border: 1px dotted;
+}
+
+/*  div also provide space it will work */
+div :not(p)
+{
+    border: 1px solid;
+}
+
+/* :is(.f)
+{
+    color: aqua;
+} */
