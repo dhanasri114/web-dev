@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <h1>Trainer Feedback Form</h1>
+
+  <form>
+
+        <label>Name</label>
+        <input type="text" name="name">
+      <br><br>
+        <label>Email</label>
+        <input type="email"name="email">
+<br><br>
+        <label >Training Date</label>
+        <input type="date" name="training_date">
+
+    
+      <br><br>
+     
+        <label>1.The trainer was knowledgeable about the subject</label><br>
+        <input type="radio" name="trainer_knowledge" value="Excellent"><label>Excellent</label><br>
+        <input type="radio" name="trainer_knowledge" value="Good"><label>Good</label><br>
+        <input type="radio" name="trainer_knowledge" value="Average"><label>Average</label><br>
+        <input type="radio" name="trainer_knowledge" value="Poor"><label>Poor</label><br>
+    <br>
+        <label>2. The trainer explained the content clearly and made it easy to understand</label><br>
+        <input type="radio" name="trainer_explanation" value="Excellent"><label>Excellent</label><br>
+        <input type="radio" name="trainer_explanation"value="Good"><label >Good</label><br>
+        <input type="radio"  name="trainer_explanation" value="Average"><label>Average</label><br>
+        <input type="radio" name="trainer_explanation"value="Poor"><label>Poor</label>
+    <br><br>
+    
+
+        <label>3. The trainer encouraged participation and interaction</label><br>
+        <input type="radio"  name="trainer_interaction" value="Excellent"><label>Excellent</label><br>
+        <input type="radio" name="trainer_interaction" value="Good"><label>Good</label><br>
+        <input type="radio" name="trainer_interaction"value="Average"><label >Average</label><br>
+        <input type="radio" name="trainer_interaction" value="Poor"><label>Poor</label>
+    <br><br>
+        <label>4. The training content was relevant to my needs</label><br>
+        <input type="radio" name="training_content"value="Excellent"><label>Excellent</label><br>
+        <input type="radio" name="training_content" value="Good"><label>Good</label><br>
+        <input type="radio" name="training_content" value="Average"><label>Average</label><br>
+        <input type="radio" name="training_content"value="Poor"><label >Poor</label>
+    <br><br>
+        <label>5. Overall, how would you rate this training?</label><br>
+        <input type="radio" name="overall_training"value="Excellent"><label>Excellent</label><br>
+        <input type="radio" name="overall_training" value="Good"><label>Good</label><br>
+        <input type="radio" name="overall_training"value="Average"><label>Average</label><br>
+        <input type="radio" name="overall_training"value="Poor"><label >Poor</label>
+        
+<br><br>
+      
+        <label >6. What did you like most?</label><br>
+        <textarea name="like_most" rows="4"></textarea>
+
+      <br><br>
+        <label>7. What could be improved?</label><br>
+        <textarea name="improved" rows="4"></textarea>
+        <br><br>
+
+<button>Submit Feedback</button>
+    
+  </form>
+
+  <a href="feedback_backend.html">backend_process</a>
+</body>
+</html>

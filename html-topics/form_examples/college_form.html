@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="college.css">
+</head>
+<body>
+    <h1>College Form</h1>
+    <form>
+        <label><h2>Hall Ticket Number</h2></label>
+        <input type="text" name="hall_ticket" id="exam" placeholder="Enter Hall Ticket Number"><br><br>
+        <label><b>Name</b></label><br>
+        <input type="text" name="name" placeholder="Enter your name"><br><br>
+        <label><b>Date of Birth (As per SSC)</b></label><br>
+        <input type="date" name="DOB"><br><br>
+        <label><b>Mobile Number</b></label><br>
+        <input type="number" name="number" placeholder="Enter phone number"><br><br>
+
+        <label><b>Alternate Mobile Number</b></label><br>
+        <input type="number" name="alt_number" placeholder="Alternate number">
+        <br><br>
+        
+        <h3>Category</h3>
+        <input type="radio" name="category" value="bc">BC<br>
+        <input type="radio" name="category" value="oc">OC<br>
+        <input type="radio" name="category" value="bc-a">BC-A<br>
+
+        <input type="radio" name="category" value="bc-b">BC-B<br>
+        <input type="radio" name="category" value="sc">SC<br>
+        <input type="radio" name="category" value="st">ST
+<br><br>
+<h3>Physically challenged</h3>
+<input type="radio" name="ph" value="yes">yes
+<input type="radio" name="ph" value="no">No
+        <h3>Stream</h3>
+        <input type="radio" value="engineering" name="stream">Engineering
+    
+            <ul>
+                <li>
+                    Colleges_name
+                    <ul><br>
+                  <li><input type="checkbox" name="college" value="svce">SVCE</li>
+                 <li><input type="checkbox" name="college" value="jntua">JNTUA</li>
+                 <li><input type="checkbox" name="college" value="jntuh">JNTUH</li>
+                 <li><input type="checkbox" name="college" value="jntuk">JNTUK</li>
+                    </ul>
+                </li>
+                
+            </ul>
+
+            <button type="submit"> Submit</button>
+    </form>
+    <a href="college_backend.html">backend_process</a>
+</body>
+</html>

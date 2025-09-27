@@ -1,0 +1,14 @@
+form
+{
+    background-color:skyblue;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+}
+
+h1{
+    text-align: center;
+    background-color:lightcoral;
+    padding: 10px;
+}
