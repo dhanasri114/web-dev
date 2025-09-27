@@ -35,7 +35,7 @@ div :not(p)
     border: 1px solid;
 }
 
-:is(.f)
+/* :is(.f)
 {
     color: aqua;
-}
+} */
