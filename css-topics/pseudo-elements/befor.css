@@ -1,0 +1,21 @@
+h3{
+ border: 2px solid;
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+    width: 11px;
+}
+h3::before{
+    content: "😇";
+   
+}
+
+
+.sad::before
+{
+    content: "😔";
+}
+
+.happy::before{
+    content: "😂";
+}
