@@ -1,0 +1,9 @@
+h2::after
+{
+    content: "🌍";
+}
+
+h3::after
+{
+    content: "😀";
+}
