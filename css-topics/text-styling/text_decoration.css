@@ -1,0 +1,19 @@
+
+h2{
+    text-decoration:underline;
+}
+
+h3{
+    text-decoration: overline;
+}
+
+
+
+h4{
+    text-decoration:line-through;
+}
+p{
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+}
+
