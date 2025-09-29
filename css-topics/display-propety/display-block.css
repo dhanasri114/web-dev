@@ -1,0 +1,16 @@
+h1{
+    background-color: burlywood;
+    text-align: center;
+}
+
+h2{
+    border: 2px dotted;
+}
+
+input{
+    display: block;
+}
+input,label
+{
+    line-height: 1.7;
+}
