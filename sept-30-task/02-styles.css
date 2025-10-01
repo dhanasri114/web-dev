@@ -1,0 +1,119 @@
+body{
+  text-align: center;
+  background-color: blueviolet;
+  padding-top: 50px;
+}
+
+.row2{
+  display: flex;
+}
+
+.head.head1
+{
+  display: inline-block;
+}
+
+.item
+{
+    border: 2px solid;
+    width: 140px;
+    height: 20px;
+}
+.item.item-1
+{
+    background-color: purple;
+}
+.row2 .item
+{
+  border: 1px solid;
+  width: 100px;
+  height: 20px;
+}
+
+.row2 .item.blue 
+{
+  width: 80px;
+  height: 70px;
+  background-color: aquamarine;
+}
+
+.row2 .item.red
+{
+  width: 60px;
+  height: 30px;
+  background-color:red;
+}
+.row2 .item.yellow
+{
+  width: 60px;
+  height: 40px;
+  background-color:yellow;
+}
+
+.row
+{
+  padding-top: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.row3.item
+{
+  border: 2px solid;
+  width: 80px;
+  height: 20px;
+}
+
+.row3 .item.red{
+  background-color: red;
+}
+.row3 .item.blue{
+  background-color: aqua;
+}
+
+.row4.item
+{
+  border: 2px solid;
+  width: 100px;
+  height: 20px;
+}
+
+.row4 .item.blue{
+  background-color:aqua;
+}
+
+.row4 .item.orange{
+  background-color: orange;
+}
+
+
+.row5.item
+{
+  border: 2px solid;
+  width: 100px;
+  height: 20px;
+}
+
+.row5 .item.orange{
+  background-color: orange;
+}
+
+.row5 .item.red{
+  background-color: red;
+}
+
+
+.row6 .item
+{
+  border: 2px solid;
+  width: 295px;
+  height: 15px;
+}
+
+.row6 .item.pink
+{
+  background-color: violet;
+}
+
+
+
