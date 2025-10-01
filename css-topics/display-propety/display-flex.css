@@ -1,0 +1,58 @@
+header .front
+{
+    flex-wrap: wrap;
+}
+
+.front{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    /* flex-direction: row-reverse;   start in right*/
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+
+.front .end
+{
+ border: 2px dotted;
+ height: 30px;
+ width: 100px;
+}
+
+.back
+{
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    /* justify-content: end; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: space-around; gap between the text */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+}
+.back .end
+{
+    border: 2px solid;
+    height: 30px;
+    width: 80px;
+}
+
+.lang
+{
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.lang .telugu
+{
+    border: 2px dashed;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+}
+
