@@ -1,0 +1,34 @@
+.boxes
+{
+    display: flex;
+    gap: 20px;
+   
+}
+
+
+.box{
+     background-color: brown;
+    padding: 100px;
+}
+
+
+
+@media(max-width:1024px)
+{
+    .boxes .box{
+        background-color: aqua;
+        padding: 100px;
+    }
+}
+
+
+@media(max-width:600px)
+{
+    .boxes .box{
+        
+        flex-direction: column;
+        background-color: rgb(7, 188, 95);
+        padding: 100px;
+    }
+}
+

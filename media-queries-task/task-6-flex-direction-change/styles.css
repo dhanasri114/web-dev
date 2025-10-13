@@ -1,0 +1,19 @@
+.flex-box
+{
+    display: flex;
+    gap: 10px;
+}
+
+.box
+{
+    padding: 40px;
+    background-color: aquamarine;
+}
+
+@media(max-width:768px)
+{
+    .flex-box
+    {
+        flex-direction: column;
+    }
+}
