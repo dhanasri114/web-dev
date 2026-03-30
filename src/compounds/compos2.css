@@ -1,0 +1,32 @@
+/* .main
+{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.content
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    font-size: 20px;
+}
+
+.data li
+{
+    list-style:square;
+} */
+
+.main-table,th,td
+{
+    border: solid 2px;
+   border-spacing: 5px;
+    
+}
