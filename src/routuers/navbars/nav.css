@@ -1,0 +1,48 @@
+.nav
+{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+.nav select
+{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+.main-items
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+   
+}
+.sub-items
+{
+    padding: 50px;
+    border: 2px solid;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-size: 20px;   
+}
+.veg-items
+{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+li
+{
+    list-style: none;
+}
+h2{
+    text-align: center;
+}
+button{
+    gap: 20px;
+}
